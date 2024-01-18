@@ -1,15 +1,17 @@
 #include<stdio.h>
 void main()
 {
-    int  a = 0;
-    int answer = 0;
+    float p = 25000;
+    float r = 20;
+    float t = 01;
+    float answer = 0;
 
-    printf("enter the value of a");
-    scanf("%d",&a);
+    printf("the value of p is %f,r is %f,and t is %f",p,r,t);
 
-    answer = a % 3;
+    answer = p * r * t / 100;
 
-    printf("the value of answer is %d",answer);
+
+    printf("the value of answer is %f",answer);
     
 
 }
